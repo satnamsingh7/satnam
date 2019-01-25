@@ -14,7 +14,7 @@ public class Student {
  
     private String name;
     private int id;
-    
+    private int DOB;
    
     public Student()
     {
@@ -28,7 +28,7 @@ public class Student {
     }
     public void setName(String givenName)
     {
-        this.name = givenName;
+       this.name = givenName;
     }
     public String getName()
     {
@@ -42,6 +42,20 @@ public class Student {
     public int getId()
     {
            return this.id;
+    }
+
+    /**
+     * @return the DOB
+     */
+    public int getDOB() {
+        return DOB;
+    }
+
+    /**
+     * @param DOB the DOB to set
+     */
+    public void setDOB(int DOB) {
+        this.DOB = DOB;
     }
             
     
