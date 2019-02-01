@@ -9,7 +9,7 @@ package studentlist;
 /**
  *
  * @author shaim
- date feb ist 2019
+ date feb. 1st, 2019
  */
 public class Student {
  
